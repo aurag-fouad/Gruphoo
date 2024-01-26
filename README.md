@@ -10,10 +10,10 @@ Download the file "Backend_VF_.ipynb", then execute all the cells to start the b
 The website is deployed in Docker. For this you will need to download and install Docker.
 
 In the command promp, run this command: 
-> docker pull auragfouad/gruphooapp:v1
+> docker pull auragfouad/gruphooapp:v2
 
 After the execution ends, run this command: 
-> docker run -p 80:80 auragfouad/gruphooapp:v1
+> docker run -p 80:80 auragfouad/gruphooapp:v2
 
 Now all you have to d is visit the this link: http://localhost:80 
 
