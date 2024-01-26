@@ -10,7 +10,7 @@ Download the file "Backend_VF_.ipynb" and execute all the cells to start the bac
 
 #### If Docker is Not Installed
 
-Make sure you have Docker installed on your machine. You can download Docker using this link: https://www.docker.com/
+Make sure you have Docker installed on your machine. You can download Docker using [this link](https://www.docker.com/)
 
 Run Docker Desktop and create an account.
 
@@ -21,17 +21,23 @@ After a reboot, start Docker Desktop again to ensure the Docker Engine is runnin
 Simply start Docker Desktop and verify that no other images are using port 80 on your localhost.
 
 You can check the ports used by other images using the command: 
+```bash
 docker ps
+```
 
 Now you are good to proceed to the next step.
 
 ### Run the Web Application
 
 First, pull the Docker image for the application. Open your command prompt and run the following command: 
+```bash
 docker pull auragfouad/gruphooapp:v3
+```
 
 After that, start the Docker image on port 80 of your local machine using this command:
+```bash
 docker run -p 80:80 auragfouad/gruphooapp:v3
+```
 
 Now, visit this link: http://localhost:80/user
 
