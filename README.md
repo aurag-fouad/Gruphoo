@@ -2,13 +2,13 @@
 
 In this project, we implemented the Cuckoo Search Optimization algorithm to find the optimal path in a non-oriented graph, navigating from node x to node y. Follow the instructions in this README file to install both the web application and the Python implementation of the algorithm. The algorithm implementation utilizes threads to ensure efficiency.
 
-### Download the Backend File
+## Download the Backend File
 
 Download the file "Backend_VF_.ipynb" and execute all the cells to start the backend server.
 
 ### Run the Docker Engine
 
-#### If Docker is Not Installed
+### If Docker is Not Installed
 
 Make sure you have Docker installed on your machine. You can download Docker using [this link](https://www.docker.com/)
 
@@ -16,7 +16,7 @@ Run Docker Desktop and create an account.
 
 After a reboot, start Docker Desktop again to ensure the Docker Engine is running.
 
-#### If Docker is Installed
+### If Docker is Installed
 
 Simply start Docker Desktop and verify that no other images are using port 80 on your localhost.
 
@@ -27,7 +27,7 @@ docker ps
 
 Now you are good to proceed to the next step.
 
-### Run the Web Application
+## Run the Web Application
 
 First, pull the Docker image for the application. Open your command prompt and run the following command: 
 ```bash
