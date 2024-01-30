@@ -1,5 +1,7 @@
 # Gruphoo
 
+## Welcome to Gruphoo Project!
+
 In this project, we implemented the Cuckoo Search Optimization algorithm to find the optimal path in a non-oriented graph, navigating from node x to node y. Follow the instructions in this README file to install both the web application and the Python implementation of the algorithm. The algorithm implementation utilizes threads to ensure efficiency.
 
 ## DEMO of the application
