@@ -6,7 +6,7 @@ In this project, we implemented the Cuckoo Search Optimization algorithm to find
 
 ## DEMO of the application
 
-You can watch a Demo of our application by downloading the Gruphoo Demo zip file, which contains a use case video of our application. **We highly recommend it** to get an idea of how the application looks.
+You can watch a Demo of our application by downloading the Gruphoo_DEMO.zip file, which contains a use case video of our application. **We highly recommend it** to get an idea of how the application looks.
 
 ## Download the Backend File
 
